@@ -1,0 +1,15 @@
+.user {
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    background-color: lightgray;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    flex-grow: 2;
+}
+
+.user__leftBox {
+    display: flex;
+    flex-direction: column;
+}

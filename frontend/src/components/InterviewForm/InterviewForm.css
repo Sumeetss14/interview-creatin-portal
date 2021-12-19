@@ -1,0 +1,46 @@
+.interviewFormBox {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.interviewForm__userBox {
+    max-height: 500px;
+    width: 500px;
+    overflow: auto ;
+    border: 1px solid black;
+}
+
+.interviewForm__user {
+    display: flex;
+}
+
+input.interviewForm__checkBox {
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.interviewForm__time {
+    display: flex;
+}
+
+.interviewForm__dateTime {
+    width: 250px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+.interviewForm__timeBox {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+}
+
+.interviewForm__submitBtn {
+    padding: 10px 20px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}

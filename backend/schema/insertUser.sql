@@ -1,0 +1,18 @@
+INSERT INTO user (username, email, pass, role)
+VALUES ("som_ahirwar", "ahirwar.som@gmail.com", 123456, "admin"),
+        ("rohit_singh", "rohit@gmail.com", 123456, "user"),
+        ("tanisha", "tanisha@gmail.com", 123456, "user"),
+        ("nishant", "nishant@gmail.com", 123456, "user"),
+        ("ravi", "ravi@gmail.com", 123456, "user"),
+        ("laukik", "laukik@gmail.com", 123456, "user"),
+        ("pallavi", "pallavi@gmail.com", 123456, "user"),
+        ("simran", "simran@gmail.com", 123456, "user"),
+        ("ritika", "ritika@gmail.com", 123456, "user"),
+        ("sarthak", "sarthak@gmail.com", 123456, "user"),
+        ("anant", "anant@gmail.com", 123456, "user"),
+        ("raman", "raman@gmail.com", 123456, "user"),
+        ("aditi", "aditi@gmail.com", 123456, "user"),
+        ("nandini", "nandini@gmail.com", 123456, "user"),
+        ("rishab", "rishab@gmail.com", 123456, "user"),
+        ("ram", "ram@gmail.com", 123456, "user"),
+        ("ballu", "ballu@gmail.com", 123456, "user");
