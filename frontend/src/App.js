@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import InterviewForm from './components/InterviewForm/InterviewForm';
 import UpcomingInterview from './components/UpcomingInteview/UpcomingInterview';
+import Home from "./components/Home/Home";
 import EditPage from './components/EditPage/EditPage';
 import React from 'react';
 import axios from "axios";
@@ -47,7 +48,7 @@ function App() {
             path="/"
             exact
             render={() => (
-              <div>Hello</div>
+              <Home />
             )}
           />
           <Route path="/interview" exact render={() => <InterviewForm users={users}/>} />
